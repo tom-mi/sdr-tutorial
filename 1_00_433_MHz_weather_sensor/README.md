@@ -43,7 +43,7 @@ By comparing the bit sequences with the temperatures, we observe:
 
 To decode the bit sequence into a human-readable output, I used the following code in a _Binary message processor_ block:
 
-```
+```python
 import struct
 import numpy
 
