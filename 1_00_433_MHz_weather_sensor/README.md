@@ -10,6 +10,7 @@ We just guessed that the a short gap is a `0` and a long gap is a `1`, which wor
 From the first two sample files in the `samples` folder, we get the following sample data:
 
 | Temperature | Bit sequence                                      |
+| ----------- | ------------------------------------------------- |
 | `-5.7 °C`   | `1 1 0 1 0 0 1 0 1 0 0 0 0 1 0 1 0 0 0 0 0 1 1 1` |
 | ` 5.1 °C`   | `0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1` |
 | ` 5.8 °C`   | `0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0` |
@@ -59,12 +60,3 @@ if len(data) == 24:
 ## Add a message decoder
 
 The complete decoder is here: [decoder.grc](decoder.grc)
-
-
-
-
-# Resources
-
-- [Wikipedia: On-Off Keying](https://en.wikipedia.org/wiki/On%E2%80%93off_keying)
-- [Empfang von Wettersensordaten mit RTL-SDR](https://www.kompf.de/weather/rtlsdrsensor.html)
-- [GQRX for digital signals](https://www.bastibl.net/gqrx-for-digital-signals/)
