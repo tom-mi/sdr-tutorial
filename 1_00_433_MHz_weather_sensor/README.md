@@ -7,7 +7,7 @@ We just guessed that the a short gap is a `0` and a long gap is a `1`, which wor
 
 ## Collect more sample data and reverse-engineer the encoding
 
-From the first two sample files in the `samples` folder, we get the following sample data:
+From the sample files in the [samples folder](samples), we get the following sample data:
 
 | Temperature | Bit sequence                                      |
 | ----------- | ------------------------------------------------- |
